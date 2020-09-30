@@ -16,9 +16,12 @@ main(List<String> args) {
       continue continuaAqui; // Con la clausula continue se puede mandar a una etiqueta definida, en nuestro caso es continuaAqui
     continuaAqui:
     case 3:
+      // throw nos sirve para mandar una exepcion en el programa.
+      // throw('Retomamos el valor 3 pedido por el usuario);
       print('Retomamos el valor 3 pedido por el usuario');
       break;
     default:
       print('Retornamos valor $opcion');
   }
 }
+
